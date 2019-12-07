@@ -27,7 +27,7 @@ while count != 4:
 
     # create a text suface object,
     # on which text is drawn on it.
-    text = font.render('Este es el monitor', True, green, blue)
+    text = font.render('Este es el monitor' + str(count), True, green, blue)
 
     textRect = text.get_rect()
 
