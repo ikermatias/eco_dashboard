@@ -27,7 +27,7 @@ while count != 4:
 
     # create a text suface object,
     # on which text is drawn on it.
-    text = font.render('Este es el monitor' + str(count), True, green, blue)
+    text = font.render('Este es el monitor ' + str(count), True, green, blue)
 
     textRect = text.get_rect()
 
@@ -52,7 +52,7 @@ while count != 4:
             if event.key == pygame.K_1:
                 print("Doing whatever")
 
-        pygame.display.update()
+    pygame.display.update()
 
     GPIO.wait_for_edge(3, GPIO.FALLING)
     count = count + 1
