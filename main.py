@@ -21,7 +21,7 @@ while count != 4:
     display_surface = pygame.display.set_mode((X, Y))
 
     # set the pygame window name
-    pygame.display.set_caption('Monitor ' + count)
+    pygame.display.set_caption('Monitor ' + str(count))
 
     font = pygame.font.Font('freesansbold.ttf', 32)
 
