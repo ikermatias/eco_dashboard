@@ -58,4 +58,4 @@ while count != 4:
     count = count + 1
 
 pygame.quit()
-quit()
+
